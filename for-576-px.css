@@ -1,0 +1,73 @@
+@media /*only screen and */(max-width: 576px) {
+    .text p {font-size: 0.71423em} /*10px*/
+    .header__logo span {font-size: 0.5714em} /*8px*/
+    .header__logo h2 {font-size: 0.8571em}
+    .text h3  {font-size: 0.71423em}/*12px*/
+    .text h1 {font-size: 1.142857em} /*16px*/
+    
+    .header-top {
+        margin-top: 1.0714em;
+        margin-bottom: 1.0714em;
+        height: 3.5714em;
+    }
+    .header__logo {
+        margin-left: 5%;
+    }
+    .header__logo img {
+        width: 25%; 
+    }
+    input {
+        height: 1.42857em; 
+        width: 80%;
+        padding-left: 5%; 
+        margin-right: 5%; 
+    }
+    button {
+        height: 1.42857em; 
+        width: 1.42857em; 
+    }
+    button:before {
+        font-size: 1.142857em;
+    }
+    form img {
+        width: 1.142857em;
+        height: 1.142857em; 
+    }
+    .header__nav {
+        height: 1.9em; 
+    }
+    .header__nav a {
+        padding: 0.7143em 1em; 
+        font-size: 0.71423em; 
+    }
+    .header__nav ul {
+        margin-top: 0.35em;
+    }
+    .text {
+        padding: 5% 10%;
+        width: 100%;
+    }
+    .dot {
+        height: 0.714em; 
+        width: 0.714em; 
+        bottom: 2.2em; 
+    }
+    .feature-item {
+        height: 7.142857em; 
+    }
+    .features {
+        margin-bottom: 7.142857em; 
+    }
+    .features:first-child {
+        padding-left: 2%; 
+    }
+    .feature-item p {
+        padding-right: 5%; 
+        padding-left: 25%;
+        font-size: 0.5714em;
+    }
+    .feature-project, .feature-works, .feature-expert, .feature-technical, .feature-lab   {
+       background-size: 20% auto;
+       background-position: 5%; 
+    }
+}

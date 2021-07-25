@@ -1,0 +1,70 @@
+@media /*only screen and */(max-width: 767px) {
+    .text p {font-size: 11px}
+    .header__logo span {font-size: 9px}
+    .header__logo h2 {font-size: 12px} 
+    .text h3 {font-size: 11px}
+    .text h1 {font-size: 32px; margin-bottom: 5px;} 
+    
+    .header-top {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .header__logo {
+        margin-left: 20px;
+    }
+    .header__logo img {
+        width: 40px; 
+    }
+    input {
+        height: 20px; 
+        width: 150px;
+        /*padding-left: 10px;*/
+        margin-right: 10px; 
+    }
+    button {
+        height: 15px; 
+        width: 15px; 
+    }
+    button:before {
+        font-size: 10px;
+    }
+    form img {
+        width: 10px;
+        height: 10px; 
+    }
+    .header__nav {
+        height: 28px; 
+    }
+    .header__nav a {
+        padding: 8px 13px; 
+        font-size: 10px; 
+    }
+    .header__nav ul {
+        margin-top: 6px;
+    }
+    .text {
+        padding: 20px 60px;
+        width: 500px;
+    }
+    .dot {
+        height: 10px; 
+        width: 10px; 
+        bottom: 35px; 
+    }
+    .feature-item {
+        height: 80px; 
+    }
+    .features {
+        padding-left: 15px; 
+    }
+    .feature-item p {
+        padding-right: 15px; 
+        padding-left: 28px;
+        font-size: 9px;
+    }
+    .feature-project, .feature-works, .feature-expert, .feature-technical, .feature-lab   {
+       background-size: 18px auto;
+       background-position: 7px; 
+    }
+}
